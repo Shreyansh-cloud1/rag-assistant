@@ -1,4 +1,3 @@
-
 # Local RAG Assistant
 
 A Retrieval-Augmented Generation (RAG) assistant built with:
@@ -21,14 +20,24 @@ A Retrieval-Augmented Generation (RAG) assistant built with:
 
 User Query
 ↓
+
+
 Embedding Model
 ↓
+
+
 PostgreSQL + pgvector
 ↓
+
+
 Top-K Retrieval
 ↓
+
+
 Gemini LLM
 ↓
+
+
 Answer Generation
 
 ## Run
