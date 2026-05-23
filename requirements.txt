@@ -1,0 +1,14 @@
+psycopg2-binary
+sqlalchemy
+requests
+fastapi
+uvicorn
+streamlit
+python-dotenv
+google-genai
+sentence-transformers
+PyMuPDF
+pypdf
+numpy
+langchain
+langchain-text-splitters

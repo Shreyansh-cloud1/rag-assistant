@@ -1,0 +1,17 @@
+rag-knowledge-assistant/
+├── app/
+│   ├── api.py
+│   ├── config.py
+│   ├── db.py
+│   ├── ingest.py
+│   ├── retriever.py
+│   ├── llm.py
+│   └── schemas.py
+├── ui/
+│   └── streamlit_app.py
+├── data/
+│   └── sample.pdf
+├── requirements.txt
+├── docker-compose.yml
+├── init.sql
+└── .env
