@@ -19,35 +19,15 @@ A Retrieval-Augmented Generation (RAG) assistant built with:
 ## Architecture
 
 User Query
-
-
 ↓
-
-
 Embedding Model
-
-
 ↓
-
-
 PostgreSQL + pgvector
-
-
 ↓
-
-
 Top-K Retrieval
-
-
 ↓
-
-
 Gemini LLM
-
-
 ↓
-
-
 Answer Generation
 
 ## Run
