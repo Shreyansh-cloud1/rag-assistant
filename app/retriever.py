@@ -20,7 +20,7 @@ def search(query_embedding, top_k=5): # query_embeding (vector representation of
         SELECT content,
                1 - (embedding <=> %s::vector) AS similarity  
         FROM documents
-        OREDR BY embedding <=> %s::vector
+        ORDER BY embedding <=> %s::vector
         LIMIT %s;
         """,
         (query_embedding, query_embedding, top_k),
